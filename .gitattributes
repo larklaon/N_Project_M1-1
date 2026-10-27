@@ -1,0 +1,2 @@
+# Preserve published source bytes, including original line endings and whitespace.
+data/raw/* -text -whitespace

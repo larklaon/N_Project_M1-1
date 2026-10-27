@@ -1,0 +1,148 @@
+{
+  "period": [
+    "2011-01-01",
+    "2012-12-31"
+  ],
+  "count": 731,
+  "total": 3292679,
+  "mean": 4504.3488372093025,
+  "median": 4548.0,
+  "min": {
+    "date": "2012-10-29",
+    "count": 22
+  },
+  "max": {
+    "date": "2012-09-15",
+    "count": 8714
+  },
+  "annual": [
+    {
+      "year": 2011,
+      "days": 365,
+      "total": 1243103,
+      "daily_mean": 3405.7616438356163,
+      "daily_std": 1378.7536658345598
+    },
+    {
+      "year": 2012,
+      "days": 366,
+      "total": 2049576,
+      "daily_mean": 5599.934426229508,
+      "daily_std": 1788.6678676863905
+    }
+  ],
+  "annual_total_change_pct": 64.87579870694545,
+  "annual_mean_change_pct": 64.42531838260952,
+  "months_with_yoy_growth": 12,
+  "day_type": [
+    {
+      "is_weekend": false,
+      "days": 521,
+      "total_mean": 4550.5662188099805,
+      "casual_mean": 625.0364683301343,
+      "registered_mean": 3925.5297504798464
+    },
+    {
+      "is_weekend": true,
+      "days": 210,
+      "total_mean": 4389.685714285714,
+      "casual_mean": 1401.7761904761905,
+      "registered_mean": 2987.9095238095238
+    }
+  ],
+  "weather": [
+    {
+      "year": 2011,
+      "weathersit": 1,
+      "days": 226,
+      "daily_mean": 3694.9867256637167,
+      "median": 4103.5
+    },
+    {
+      "year": 2011,
+      "weathersit": 2,
+      "days": 124,
+      "daily_mean": 3088.0967741935483,
+      "median": 3380.0
+    },
+    {
+      "year": 2011,
+      "weathersit": 3,
+      "days": 15,
+      "daily_mean": 1674.1333333333334,
+      "median": 1817.0
+    },
+    {
+      "year": 2012,
+      "weathersit": 1,
+      "days": 237,
+      "daily_mean": 6003.734177215189,
+      "median": 6398.0
+    },
+    {
+      "year": 2012,
+      "weathersit": 2,
+      "days": 123,
+      "daily_mean": 4991.333333333333,
+      "median": 5191.0
+    },
+    {
+      "year": 2012,
+      "weathersit": 3,
+      "days": 6,
+      "daily_mean": 2126.1666666666665,
+      "median": 1598.0
+    }
+  ],
+  "largest_drop": {
+    "date": "2012-10-29",
+    "count": 22,
+    "change_pct": -99.50661583314645
+  },
+  "largest_rise": {
+    "date": "2012-10-30",
+    "count": 1096,
+    "change_pct": 4881.818181818182
+  },
+  "quality": {
+    "rows": 731,
+    "columns_raw": 16,
+    "missing_raw": {
+      "instant": 0,
+      "dteday": 0,
+      "season": 0,
+      "yr": 0,
+      "mnth": 0,
+      "holiday": 0,
+      "weekday": 0,
+      "workingday": 0,
+      "weathersit": 0,
+      "temp": 0,
+      "atemp": 0,
+      "hum": 0,
+      "windspeed": 0,
+      "casual": 0,
+      "registered": 0,
+      "cnt": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_dates": 0,
+    "missing_dates": 0,
+    "invalid_counts": 0,
+    "count_identity_failures": 0,
+    "removed_rows": 0,
+    "imputed_values": 0,
+    "iqr_lower": -1054.0,
+    "iqr_upper": 10162.0,
+    "iqr_flag_count": 0,
+    "local_flag_count": 14,
+    "derived_missing_expected": {
+      "ma7": 6,
+      "ma30": 29,
+      "daily_change_pct": 1,
+      "previous30_mean": 30,
+      "previous30_std": 30,
+      "rolling_z": 30
+    }
+  }
+}

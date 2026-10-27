@@ -1,0 +1,3 @@
+is_weekend,days,total_mean,casual_mean,registered_mean
+False,521,4550.566219,625.036468,3925.529750
+True,210,4389.685714,1401.776190,2987.909524
